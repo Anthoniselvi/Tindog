@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    background: white;
+    font-size: 24px;
+   
+}
+ .container{
+    border: 1px solid black;
+    padding: 1rem;   
+    height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    display: flex;
+    flex-direction: column;
+  gap: 0.5rem;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+     }
+ 
+ footer{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .dog-image{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+   
+    padding-right: 0;
+    border-radius: 15px;
+    
+ }
+ 
+ .text {
+    position: absolute;
+    top: 70%;   
+    left: 12%;
+    color: white;
+ }
+.like{
+    width: 50%;
+    position: absolute;
+    left:13%;
+    top: 15%;
+    background: transparent;
+    display: none;
+}
+
+.nope{
+    width: 50%;
+    position: absolute;
+    left:13%;
+    top: 15%;
+    background: transparent;
+    display: none;
+}
+.active{
+    display: block;
+}
+ .puretransparent {
+    background: transparent;
+ }
+ .head1{
+    
+    width: 41.21px;
+    height: 41.21px;
+}
+.head2{
+   
+    width: 84px;
+height: 42px;
+}
+.head3{
+   
+    width: 34px;
+    height: 34px;
+}
+.reject, .heart{
+    height: 91.87px;
+    width: 91.87px;
+}
